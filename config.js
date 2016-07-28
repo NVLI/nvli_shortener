@@ -5,7 +5,7 @@ config.webhost = 'http://stage-nvli.iitb.ac.in/';
 
 config.db.host = 'localhost';
 config.db.name = 'url_shortener';
-config.db.user = 'root';
-config.db.password = 'NrWnfxCnh77';
+config.db.user = 'admin';
+config.db.password = 'ghg~GJpK3f';
 
 module.exports = config;
