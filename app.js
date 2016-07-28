@@ -9,7 +9,7 @@ var base58 = require('./base58.js');
 // grab the url model
 var Url = require('./models/url');
 
-mongoose.connect('mongodb://' + config.db.user + ':' + config.db.password + '@' + config.db.host + '/' + config.db.name);
+mongoose.connect('mongodb://' + config.db.host + '/' + config.db.name, config.db.options);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
