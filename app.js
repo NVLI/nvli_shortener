@@ -23,7 +23,7 @@ app.get('/', function(req, res){
 //allow cors origin
 app.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', 'http://dev-nvli.iitb.ac.in');
-}
+});
 
 app.post('/api/shorten', function(req, res){
   var longUrl = req.body.url;
